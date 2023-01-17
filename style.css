@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+    letter-spacing: 5px;
+}
+/* HEADER NAV SECTION */
+header {
+ background-color: #ffeeec;   
+ height: 400px;
+}
+.top-image {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.left {
+    display: flex;
+}
+nav {
+    gap: 50px;
+    display: flex;
+}
+/* HEADER MAIN SECTION */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+.intro {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+}
+.intro-image {
+    display: flex;
+    padding-top: 60px;
+    
+}
+h1 {
+    font-size: 30px;
+}
+button {
+    width: 150px;
+    height: 25px;
+    margin: 15px;
+    font-weight: 900;
+    border-radius: 15px;
+    outline-style: dashed;
+    outline-width: 2px;
+    background-color: white;
+    border-color: #ffeeec;
+    border-style: solid;
+}
+
+/* FIRST MIDDLE SECTION */
+.classic {
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
+.middle-items {
+    height: 500px;
+}
+.middle-header{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    gap: 0;
+    
+}
+.desserts {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* CHEF NOTE SECTION */
+
+.mission {
+    background-color: #ddf2d1;
+    width: auto;
+    height: 350px;
+}
+
+/* SIGN UP SECTION */
+.sign {
+    background-color:  #ffeeec;
+    border-radius: 10px;
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: #F7B4BBec;
+    width: auto;
+    height: 100px;
+}
+footer p {
+    font-weight: 900;
+    color: #ffeeec;
+    letter-spacing: 7px;
+}
