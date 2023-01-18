@@ -15,11 +15,12 @@ header {
     width: auto;
     height: 200px;
     border-radius: 5px;
+    border: 3px solid burlywood;
 }
 .navbar {
     display: flex;
-    justify-content: space-around;
     padding: 15px;
+    justify-content: space-around;
 }
 .left {
     display: flex;
@@ -43,7 +44,6 @@ nav {
 .intro-image {
     display: flex;
     padding-top: 60px;
-    
 }
 h1 {
     font-size: 30px;
@@ -79,36 +79,70 @@ button {
     
 }
 .container {
+    gap: 50px;
     display: flex;
-    gap: 0;
+    justify-content: center;
     
 }
 .desserts {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    max-width: 230px;
     justify-content: space-around;
 }
 
 /* CHEF NOTE SECTION */
 
 .mission {
+    display: flex;
+    flex-direction: column;
     background-color: #ddf2d1;
-    width: auto;
-    height: 350px;
+    padding: 115px 200px;
+}
+.mission-item {
+    font-weight: 100;
+    display: flex;
+}
+.mission-end {
+    display: flex;
+    color: #d3a13b;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 /* SIGN UP SECTION */
+.white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+}
 .sign {
-    background-color:  #ffeeec;
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    padding: 10px 100px;
     border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #ffeeec;
+}
+.end {
+    display: flex;
+    margin-top: -40px;
+    justify-content: flex-end;
 }
 
 /* FOOTER SECTION */
 footer {
-    background-color: #F7B4BBec;
+    display: flex;
     width: auto;
     height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7B4BBec;
 }
 footer p {
     font-weight: 900;
